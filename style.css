@@ -1,0 +1,116 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.titulo{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px;
+}
+nav{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 5px;
+}
+.logo{
+    width: 200px;
+    height: auto;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: black;
+}
+header{
+    background-image: url(/images/banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    background-color: #4ec031d5;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding-top: 5px;
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+    overflow: hidden;
+    background-color: rgba(85, 107, 47, 0.685);
+    border-radius: 10px;
+}
+.navbar a{
+    margin: auto;
+    padding: 7px;
+    color: black;
+    text-align: center;
+    padding:15px;
+    text-decoration: none;
+}
+.navbar li{
+    width: auto;
+    display: inline;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+.main{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 3fr;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+aside{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    margin-bottom: 10px;
+    float: left;
+}
+section{
+    justify-content: space-between;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 7px;
+}
+li:hover{
+    padding: 2px;
+    background-color: rgba(85, 107, 47, 0.795);
+    border-radius: 10px;
+}
+footer{
+    background-color: rgba(85, 107, 47, 0.685);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    float: inline-start;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+    box-shadow: 3px 3px 5px;
+}
+.igdeavi{
+    text-decoration: none;
+    color: rgba(0, 100, 0, 0.74);
+}
